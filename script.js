@@ -17,14 +17,3 @@ setInterval(updateTime, 1000);
 updateTime();
 
 
-<button onclick="sayWelcome()">🔊 സ്വാഗത സന്ദേശം കേൾക്കുക</button>
-
-<script>
-  function sayWelcome() {
-    const message = new SpeechSynthesisUtterance("സ്വാഗതം ആർ.എം.എച്ച്.എസ് മെലാറ്റൂരിലേക്ക്!");
-    message.lang = "ml-IN"; // Malayalam (India)
-    message.rate = 1; // Normal speed
-    speechSynthesis.speak(message);
-  }
-</script>
-
