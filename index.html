@@ -14,7 +14,17 @@
 
 
 <header class="school-header">
-<button onclick="sayWelcome()">🔊 Click here</button>
+
+<button onclick="sayWelcome()">🔊 Hear Welcome Message</button>
+
+<script>
+  function sayWelcome() {
+    const message = new SpeechSynthesisUtterance("Welcome to RMHS Melattur!");
+    message.lang = "en-US"; // English - United States
+    message.rate = 1; // Normal speaking rate
+    speechSynthesis.speak(message);
+  }
+</script>
 
 
 
