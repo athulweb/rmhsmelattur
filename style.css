@@ -175,3 +175,23 @@ html, body {
 }
 
 
+.street-view-section {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.street-view-section h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.street-view-section p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+
+
